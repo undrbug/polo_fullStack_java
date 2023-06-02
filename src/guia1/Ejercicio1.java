@@ -5,7 +5,7 @@
 package guia1;
 
 /**
- *
+ * Hacer un programa que muestre por pantalla el texto “Hola mundo”.
  * @author hgauna
  */
 public class Ejercicio1 {

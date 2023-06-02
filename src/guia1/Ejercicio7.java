@@ -28,5 +28,6 @@ public class Ejercicio7 {
         edad2 = aux;
         System.out.println("La primera edad es: " + edad1);
         System.out.println("La segunda edad es: " + edad2);
+        leer.close();
     }
 }

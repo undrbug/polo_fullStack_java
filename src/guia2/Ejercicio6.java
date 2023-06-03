@@ -14,6 +14,58 @@ package guia2;
  * 
  * @author hgauna
  */
+
+// mostrar numeros primos desde el 1 hasta el 200?
+
 public class Ejercicio6 {
+    public static void main(String[] args) {
+        System.out.println("Hola, ejercicio 6 guia_2!");
+        System.out.println("Listado de números primos menores que 200:");
+        for (int i = 2; i < 200; i++) {
+            if (esPrimo(i)) {
+                System.out.println(i);
+            }
+        }
+        
+    }
+       public static boolean esPrimo(int numero) {
+
+        for (int i = 2; i <= 200; i++) {
+            if (numero % i == 0 && numero % numero == 0) {
+                if (i!=1 && i!=numero){
+                    if (numero % i == 0) {
+                        return false;
+                    }
+                }else{
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
 }
+
+
+//Otra forma
+// public static void main(String[] args) {
+//     System.out.println("Hola, ejercicio 6 guia_2!");
+//     System.out.println("Listado de números primos menores que 200:");
+//     for (int numero = 2; numero < 200; numero++) {
+//         if (esPrimo(numero)) {
+//             System.out.println(numero);
+//         }
+//     }
+    
+// }
+//    public static boolean esPrimo(int numero) {
+//     if (numero <= 1) {
+//         return false;
+//     }
+//     for (int i = 2; i <= Math.sqrt(numero); i++) {
+//         if (numero % i == 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }

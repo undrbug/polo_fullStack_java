@@ -38,7 +38,7 @@ public class Ejercicio9 {
         } catch (Exception e) {
             System.out.println("Algun error en el ingreso de datos " + e);
         }
-
+        
         leer.close();
         
     }

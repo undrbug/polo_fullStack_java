@@ -21,6 +21,10 @@ public class Ejercicio6 {
         System.out.println("Ingrese el porcentaje de descuento: ");
         double descuento = leer.nextDouble();
         double importe = precio - (precio * descuento / 100);
+
+        /* -----------------------------
+        Falta informar el descuento solo
+        ----------------------------- */
         System.out.println("El importe a pagar sin descuento es: " + precio);
         System.out.println("El importe a pagar scon descuento es: " + importe);
 

@@ -30,6 +30,10 @@ public class Ejercicio9 {
             Double euros = pesos / 250.69;
             Double guaranies = pesos / 31.00;
             Double real = pesos / 46.81;
+
+            /* -------------------------------
+            La conversión a guaraníes está mal
+            ------------------------------- */
             System.out.println("La cantidad de pesos es: " + pesos);
             System.out.println("La cantidad de dólares es: " + dolares);
             System.out.println("La cantidad de euros es: " + euros);

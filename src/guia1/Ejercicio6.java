@@ -25,8 +25,9 @@ public class Ejercicio6 {
         /* -----------------------------
         Falta informar el descuento solo
         ----------------------------- */
+        System.out.println("El importe del descuento es: " + Math.round(precio - importe));
         System.out.println("El importe a pagar sin descuento es: " + precio);
-        System.out.println("El importe a pagar scon descuento es: " + importe);
+        System.out.println("El importe a pagar scon descuento es: " + Math.round(importe));
 
         leer.close();
     }

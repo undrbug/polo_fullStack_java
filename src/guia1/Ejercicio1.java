@@ -14,7 +14,7 @@ public class Ejercicio1 {
     Era "Hola mundo" :)
     ---------------- */
     public static void main(String[] args){
-        System.out.println("Hola ejercicio 1!");
+        System.out.println("Hola mundo");
     }
     
 }

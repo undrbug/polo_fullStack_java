@@ -34,11 +34,11 @@ public class Ejercicio9 {
             /* -------------------------------
             La conversión a guaraníes está mal
             ------------------------------- */
-            System.out.println("La cantidad de pesos es: " + pesos);
-            System.out.println("La cantidad de dólares es: " + dolares);
-            System.out.println("La cantidad de euros es: " + euros);
-            System.out.println("La cantidad de guaranis es: " + guaranies);
-            System.out.println("La cantidad de real es: " + real);
+            System.out.println(String.format("%.2f", pesos) + " pesos equivalen a :     ");
+            System.out.println("                             " + String.format("%.2f", dolares )+ " dolares");
+            System.out.println("                             " + String.format("%.2f", euros)+ " euros");
+            System.out.println("                             " + String.format("%.2f", guaranies)+ " guaranies");
+            System.out.println("                             " + String.format("%.2f", real)+ " reales");
         } catch (Exception e) {
             System.out.println("Algun error en el ingreso de datos " + e);
         }

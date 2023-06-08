@@ -19,7 +19,7 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         System.out.println("Hola, ejercicio 4 guia_2!");
         Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese un numero para calcular su factorial");
+        System.out.println("Ingrese un numero entero para calcular su factorial");
         int num = leer.nextInt();
         int resultado = 1;
         for (int i = 1; i <= num; i++) {

@@ -17,6 +17,7 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args) {
         System.out.println("Hola, ejercicio 2 guia_2!");
+        System.out.println("Ingrese una palabra para comprobar si es un palindromo");
         Scanner leer = new Scanner(System.in);
         String palabra = leer.nextLine();
         String palabraInvertida = new StringBuilder(palabra).reverse().toString();

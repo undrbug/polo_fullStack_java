@@ -10,7 +10,13 @@ package guia3;
  */
 public class main {
     public static void main(String[] args) {
-        Libro libro = new Libro();
-        libro.cargarLibro();
+//        Libro libro = new Libro();
+//        libro.cargarLibro();
+        
+        
+        Circunferencia circunferencia = new Circunferencia(4.0);
+        circunferencia.area();
+        circunferencia.perimetro();
+        
     }    
 }

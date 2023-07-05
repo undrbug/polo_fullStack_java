@@ -69,6 +69,7 @@ public class Libro {
         System.out.println("Ingrese la cantidad de paginas del libro:");
         this.setCantPaginas(leer.nextInt());
         informar();
+        leer.close();
     }
     
     public void informar() {
